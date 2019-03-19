@@ -13,7 +13,7 @@ pipeline {
 		}
 		stage('Deployment') {
 			steps {
-				sh 'echo deployment is succussful!'
+				sh 'scp /root/.jenkins/workspace/gamutkart/target/gamutkart.war /home/phani/softs/apache-tomcat-8.5.38/webapps'
 			}
 		}
 
