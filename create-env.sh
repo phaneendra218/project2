@@ -11,4 +11,3 @@ sudo docker run -it --name phaneendraraju$i -d --rm phaneendraraju/ubuntuimag /b
 echo "phaneendraraju$i container has been created!"
 echo "======================================"
 done
-docker inspect --format {{.NetworkSettings.Networks.bridge.IPAddress}} `docker ps -a -q` > IPs.txt
