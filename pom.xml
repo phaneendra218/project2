@@ -24,7 +24,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>gamutmart</finalName>
+		<finalName>gamumart</finalName>
 	</build>
 	
 </project>
