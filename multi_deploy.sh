@@ -12,5 +12,5 @@ if [ $ENVIRONMENT = "QA" ];then
 	sshpass -p "gamut" ssh gamut@$i "JAVA_HOME=/home/gamut/Distros/jdk1.8.0_151" "/home/gamut/Distros/apache-tomcat-8.5.23/bin/startup.sh"
 #
 	done
-	echo "Deployment is succussful!"
+	echo "Deployed succussful!"
 fi
