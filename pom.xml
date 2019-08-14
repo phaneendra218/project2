@@ -31,7 +31,7 @@
 			<id>repoR</id>
 			<name>repoR</name>
 			<url>http://18.191.224.204:8080/nexus/content/repositories/repoR/</url>
-		</repositoryR>
+		</repository>
 		
 		<snapshotRepository>
 			<id>repoS</id>
