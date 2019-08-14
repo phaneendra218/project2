@@ -27,14 +27,15 @@
 		<finalName>gamutkart</finalName>
 	</build>
 	<distributionManagement>
-		<releaserepository>
+		<repository>
 			<id>repoR</id>
 			<url>http://18.191.224.204:8080/nexus/content/repositories/repoR/</url>
-		</releaserepository>
-		<snapshotrepository>
+		
+		</repository>
+		<repository>
 			<id>repoS</id>
 			<url>http://18.191.224.204:8080/nexus/content/repositories/repoS/</url>
-		</snapshotrepository>
+		</repository>
 	</distributionManagement>
 			
 </project>
